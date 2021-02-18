@@ -1,0 +1,212 @@
+<html lang ="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale = 1.0">
+    <title> Menu </title>
+    <link rel="stylesheet" href="../static/css/marthinuntuksalma.css">
+    <script type="text/javascript" src="../ckeditor/ckeditor.js"></script>
+</head>
+<body>
+    <main>
+        <div class="bagianmenu">
+            <div class="judul">
+                 <h1><b><i>-CANTEENZY-</i></b></h1>
+            </div>
+            <div class="fotopembuka"> </div>
+            <div class="layer">
+                <div class="makanan">
+                    <div class="nasigoreng"></div>
+                    <h3>Silverqueen Chunkybarz</h3>
+                    <p>Rp.8.000,00</p>
+                </div>
+                <div class="makanan">
+                    <div class="nilabakarmadu"></div>
+                    <h3>Samyang Xtra Hot</h3>
+                    <p>Rp 15.000,00</p>  
+                </div>
+                <div class="makanan">
+                    <div class="osenguler"></div>
+                    <h3>Sweet Macarons</h3>
+                    <p>Rp 78.000,00</p>
+                </div>
+            </div>
+            <div class="layer">
+                <div class="makanan">
+                    <div class="martabaktelor"></div>
+                    <h3> Sweet Doughnut</h3>
+                    <p>Rp 20.000,00</p>
+                </div>
+                <div class="makanan">
+                    <div class="batagorsomay"></div>
+                    <h3> Sushyi</h3>
+                    <p>Rp 75.000,00</p>
+                </div>
+                <div class="makanan">
+                    <div class="oporayam"></div>
+                    <h3> Nasi Goreng spesial + telur</h3>
+                    <p>Rp 14.000,00</p>
+                </div>
+            </div>
+            <div class="layer">
+                <div class="makanan">
+                    <div class="pizza"></div>
+                    <h3>Pizza</h3>
+                    <p>Rp 180.000,00</p>
+                </div>
+                <div class="makanan">
+                    <div class="indomie"></div>
+                    <h3>Indomie Goreng/Kuah</h3>
+                    <p>Ro 4.500,00k</p>
+                </div>
+                <div class="makanan">
+                    <div class="sate"></div>
+                    <h3>Satayy</h3>
+                    <p>Rp 15.000,00</p>
+                </div>
+            </div>
+        </div>
+        <div class="bagianreservasi">
+            <nav>
+                <ul>
+                    <li><button type="button"  class="reservasibtn" id="reservasibutton"><b>Reservasi</b></button>
+                    <li><button type="button"  class="hasilreservasibtn" id="hasilreservasibutton"><b>Hasil Reservasi</b></button>
+                </ul>
+            </nav>
+            <div class="reservasi">
+                <h2>Reservasi Tempat</h2>
+                <p>Nama</p>
+                <input type="text" class="inputbox" id="firstname" name="firstname" placeholder="First Name">
+                <input type="text" class="inputbox" id="lastname" name="lastname" placeholder="Last Name">
+                <p>Email ID</p>
+                <input type="email" class="inputbox" id="email" name="email" placeholder="Email">
+                <p>Phone Number</p>
+                <input type="text" class="inputbox" id="phonenumber" name="phonenumber" placeholder="Nomor hapenya">
+                <p>Jumlah Pengunjung</p>
+                <input type="text" class="inputbox" id="jumlahorang" name="Jumlahorang" placeholder="Berapa Orang">
+                <p>Tanggal Kedatangan</p>
+                <input type="date" id="tanggaldatang">
+                <p>Jam Kedatangan</p>
+                <input type="time" id="jamdatang">
+                <br><br>
+                <button type="submit" id="submitbutton"> SUBMIT </button>
+            </div>
+            <div class="hasilreservasi">
+                <h2>Submitted Reservation</h2>
+                <p>Your Name:</p>
+                <p id="namareservasi">-</p>
+                <p>Your Email:</p>
+                <p id="emailreservasi">-</p>
+                <p>Your Phone Number</p>
+                <p id="handphonereservasi">-</p>
+                <p>Untuk Berapa Orang</p>
+                <p id="jumlahorangreservasi">-</p>
+                <p>Tanggal Kedatangan</p>
+                <p id="tanggaldatangreservasi">-</p>
+                <p>Jam Kedatangan</p>
+                <p id="jamdatangreservasi">-</p>
+                
+            </div>
+
+            <script type="text/javascript">
+                var openreservasibtn = document.getElementById("reservasibutton");
+                var openhasilreservasibtn = document.getElementById("hasilreservasibutton");
+
+                var reservasisection = document.querySelector(".bagianreservasi .reservasi");
+                var hasilreservasisection = document.querySelector(".bagianreservasi .hasilreservasi");
+
+                var stylereservasisection = getComputedStyle(reservasisection);
+                var stylehasilreservasisection = getComputedStyle(hasilreservasisection);
+
+                var reservasisectionline = document.querySelector(".bagianreservasi nav ul li:first-child")
+                var hasilreservasisectionline = document.querySelector(".bagianreservasi nav ul li:nth-child(2)")
+
+                openreservasibtn.addEventListener("click", openreservasifunction);
+                openhasilreservasibtn.addEventListener("click", openhasilreservasifunction);
+
+                function openreservasifunction(){
+                    if(stylehasilreservasisection.display =="block"){
+                        hasilreservasisection.style.display = "none";
+                        reservasisection.style.display = "block";
+                    }
+                }
+                function openhasilreservasifunction(){
+                    if(stylereservasisection.display == "block"){
+                        hasilreservasisection.style.display = "block";
+                        reservasisection.style.display = "none";
+                    }
+                }
+
+                var inputfirstname = document.getElementById("firstname");
+                var inputlastname = document.getElementById("lastname");
+                var inputemail= document.getElementById("email");
+                var inputphonenumber = document.getElementById("phonenumber");
+                var inputjumlahorang = document.getElementById("jumlahorang");
+                var inputtanggaldatang = document.getElementById("tanggaldatang");
+                var inputjamdatang = document.getElementById("jamdatang");
+
+                var bismillahbutton = document.getElementById("submitbutton");
+                bismillahbutton.addEventListener("click", submitbuttonfunction);
+
+                var hasilnama = document.getElementById("namareservasi");
+                var hasilemail = document.getElementById("emailreservasi");
+                var hasilnomor = document.getElementById("handphonereservasi");
+                var hasiljumlahorang = document.getElementById("jumlahorangreservasi");
+                var hasiltanggaldatang = document.getElementById("tanggaldatangreservasi");
+                var hasiljamdatang = document.getElementById("jamdatangreservasi")
+
+                function submitbuttonfunction(){
+                    if(inputfirstname.value == ""){
+                        return alert("namanya masih kosong sayang")
+                    }
+                    if(inputlastname.value == ""){
+                        return alert("namanya masih kosong sayang")
+                    }
+                    if(inputemail.value == ""){
+                        return alert("emailnya kosong sayang")
+                    }
+                    if(email.validity.valid == false){
+                        return alert("emailnya salah, yang bener dong harus ada @")
+                    }
+                    if(inputphonenumber.value == ""){
+                        return alert("nomor hapenya diisi dulu ya sayang")
+                    }
+                    if(inputjumlahorang.value == ""){
+                        return alert("Buat berapa orang sayang? isi dulu")
+                    }
+                    if(inputtanggaldatang.value == ""){
+                        return alert("Tanggal brapa mau kesini beb ih isi dulu atuh")
+                    }
+                    if(inputjamdatang.value == ""){
+                        return alert("Mau dateng jam berapa sayangg? isiiii")
+                    }
+                    if(confirm("Udah lengkap semua ya?")){
+                        hasilnama.innerText = inputfirstname.value + " " + inputlastname.value;
+                        hasilemail.innerText = inputemail.value;
+                        hasilnomor.innerText = inputphonenumber.value;
+                        hasiljumlahorang.innerText = inputjumlahorang.value;
+                        hasiltanggaldatang.innerText = inputtanggaldatang.value;
+                        hasiljamdatang.innerText = inputjamdatang.value;
+                        return alert("makasih sayang lov u")
+                    }
+                }
+            </script>
+        </div>
+        <div class="library">
+            <div class="isi">
+                <h2>Kesan Pesan Kaka</h2>
+                <p>Nama</p>
+                <input type="text" class="inputbox" id="namalibrary" name="firstname" placeholder="Nama">
+                <p>Kesan dan Pesan</p>
+                <input id="kesanlibrary" class="kesanlibrary"></input>
+            </div>
+
+            <script type="text/javascript">
+                window.onload = function(){
+                    CKEDITOR.replace('kesanlibrary');
+                }
+            </script>
+        </div>
+
+
+    </main>
+</body>
