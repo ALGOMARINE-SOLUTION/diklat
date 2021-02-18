@@ -1,0 +1,116 @@
+body{
+    background-image: url(../img/Logo\ Algos\ Biasa.png);
+    background-position: absolute;
+    width: auto;
+}
+main{
+    text-align: center;
+    width: 760px;
+    height: 1100px;
+    background-color: rgb(123, 177, 238);
+    margin-top: 20%;
+    margin-left: 30%;
+    margin-bottom: 20%;
+    margin-right: 30%;
+    border-radius: 60px;
+    box-shadow: rgb(0, 0, 0) 10px 10px;
+}
+.foto{
+    background-image: url(../img/Foto.jpeg);
+    width: 250px;
+    height: 400px;
+    margin-left: 33%;
+    background-size: 100%;
+    border-radius: 50px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+}
+main h1{
+    padding-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45;
+    color: dimgray;
+}
+main p{
+    margin-left: 50px;
+    font-style: inherit;
+    font-size: 20pt;
+    text-align: center;
+}
+
+main nav ul{
+    list-style: none;
+    display: flex;
+}
+
+main nav ul li{
+    display: flex;
+    float: left;
+    width: 50%;
+    padding-left: 44px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    font-size: 30pt;
+}
+
+main nav ul li:first-child{
+    margin-left: -40px;
+    border-bottom: 1px solid black;
+}
+
+main nav ul li:nth-child(2){
+    margin-left: -50px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+
+main nav ul li button{
+    background-color: transparent;
+    border: none;
+}
+
+main nav ul li button:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.feedback{
+    display: block;
+}
+
+
+.feedback input{
+    margin-left: 50pt;
+}
+
+.feedback button{
+    margin-left: 50pt;
+}
+
+.feedback h2{
+    padding-top: 50px;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 10%;
+    font-size: 50pt;
+}
+
+.feedback p{
+    font-size: 30pt;
+    justify-content: center;
+    margin-right: 30pt;
+}
+
+.feedbackresult{
+    display: none;
+}
+
+.feedbackresult h2{
+    padding-top: 50px;
+    padding-top: 50px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
