@@ -10,8 +10,7 @@ Peraturan untuk repositori ini:
 
 7. PUSH PADA BRANCH MASTER ADALAH HARAM HUKUMNYA DAN BAGI YANG MELANGGAR AKAN MENDAPAT SANKSI YANG MEGA BERAT
 
-dsada
 Note:
 Update/Pull request dapat melalui branch Admin
 
-Segala pertanyaan dapat ditanyakan kepada admin. Semangat dan sukses selalu untuk projek kita bersama !!
+Segala pertanyaan dapat ditanyakan kepada admin. Semangat dan sukses selalu untuk projek kita bersama !!!
