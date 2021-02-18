@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>MINUMAN ASIK</title>
+        <link rel="stylesheet" href="../static/css/patrick.css">
+    </head>
+    <body>
+        <main>
+            <div class="judulnya">
+                 <h1>HAUS 2.0</h1>
+            </div>
+         
+            <div class="beer">
+                <float class="gambarbeer"></float> 
+                <div class="menubeer">
+                    <h1><i><b>BEER</b></i></h1>
+                    <h2>Amstel Light | 3.5%</h2>
+                    <p>A special light beer containing approximately 35% fewer calories than regular lager beer.</p>
+                    <h2>Corona | 4.6%</h2>
+                    <p>The finest quality blend of filtered water, malted barley, hops, com and yeast</p>
+                    <h2>Hacker Pschorr | 5.5%</h2>
+                    <p>Refreshing, fruity and citrus notes accompanied by a tangy acidity</p>
+                    <h2>Guinness | 4.2%</h2>
+                    <p>Swirling clouds tumble as the storm begins to calm settle.</p>
+                </div>
+            </div>
+            <div class="cocktails">
+                <div class="menucocktails">
+                <h1><i><b>COCKTAILS</b></i></h1>
+                <h2>North Cali Mojito</h2>
+                <p>Sauvignon Blanc,
+                Midori, Hendricks Gin, Midori, Ginger Liquor, Cucumber & Basil</p>
+                <h2>Pirate Jack</h2>
+                <p>Jack Honey, Absolute Vanilla, Bailey Irish Cream, Rum Raisin</p> 
+                <h2>The Apple Jack</h2>
+                <p>Jack Daniels, Goldschlager, Natural Apple & Soda</p>
+                <h2>Big Island Punch</h2>
+                <p>Southern Comfort, Bacardi Dragon Berry, Mango, Fresh Lemon & Lime</p>
+                <h2>Watermelon Margarita</h2>
+                <p>El Jimador Blanco, Watermelon, Pineapple & Lime, Agave Nector</p>
+                <h2>South Beach Mojito</h2>
+                <p>Bacardi Artic, Bacardi Razz, Blueberry Reduction with Mint Fizz</p>
+                <h2>Rockin' Red Mojito</h2>
+                <p>Bacardi Dragon Berry, Grey Goose Pear Vodka, Cayenne, Mint & Lime</p>
+                </div>
+                <float class="gambarcocktails"></float>
+                <float class="gambarcocktails2"></float>
+            </div>
+            <div class="shots">
+                <float class="gambarshots"></float>
+                <div class="menushots">  
+                    <h1><i><b>SHOTS</b></i></h1>
+                    <h2>Black Russian</h2>
+                    <p>Vodka, Coffee Liqueur</p>
+                    <h2>Silver Bullet</h2>
+                    <p>Gin, Scotch Whisky, Lemon Twist</p>
+                    <h2>Voodoo</h2>
+                    <p>Coffee Liqueur, Rum Cream, Overproof Rum</p>
+                    <h2>Blue Kamikaze</h2>
+                    <p>Vodka, Blue Curacao, Lime Juice</p>
+                    <h2>Kamikaze</h2>
+                    <p>Vodka, Orane Liqueur, Dash of Lime Juice</p>
+                    <h2>Freak Shot</h2>
+                    <p>Mint Liqueur, Cucumber Vodka</p>
+                </div>
+                
+            </div>
+            <div class="bonusminuman">
+                <div class="kasitaudah">
+                <h1><i><b>OUR BRAND NEW</b></i></h1>
+                <h2>Brown Bear</h2>
+                <p>A special drink blend of sweet iced tea, vodka, rum raisin, and scotch whisky. It is dedicated for people who wants a simple homemade drink with extra spirits in it.</p>
+                </div>
+            </div>
+            <div class="reservasi">
+                <nav>
+                    <ul>
+                        <li><button type="button" class="reservasibt" id="reservasibutton"><b><i>RESERVASI</i></b></button>
+                        <li><button type="button" class="hasilreservasibt" id="hasilreservasibutton"><b><i>HASIL RESERVASI</i></b></button>
+                    </ul>
+                </nav>
+                <div class="reservasi2">
+                    <h2>Reservasi</h2>
+                    <p>Nama</p>
+                    <input type="text" class="inputbox" id="firstname" name="firstname" placeholder="first name">
+                    <input type="text" class="inputbox" id="lastname" name="lastname" placeholder="Last Name">
+                    <p>Email</p>
+                    <input type="email" class="inputbox" id="email" name="email" placeholder="Email">
+                    <p>Nomor Telepon</p>
+                    <input type="text" class="inputbox" id="phonenumber" name="phonenumber" placeholder="Nomor">
+                    <p>Jumlah Orang</p>
+                    <input type="text" class="inputbox" id="jumlahorang" name="Jumlahorang" placeholder="Jumlah Orang">
+                    <p>Tanggal Reservasi</p>
+                    <input type="date" id="tanggal">
+                    <p>Waktu Reservasi</p>
+                    <input type="time" id="waktu">
+                    <br>
+                    <br>
+                    <button type="submit" id="submitbutton"> Submit </button>
+                </div>
+                <div class="hasilreservasi">
+                    <h2>Hasilnya</h2>
+                    <p>Your Name:</p>
+                    <p id="namareservasi">-</p>
+                    <p>Your Email:</p>
+                    <p id="emailreservasi">-</p>
+                    <p>Your Phone Number:</p>
+                    <p id="phonereservasi">-</p>
+                    <p>Jumlah Orang:</p>
+                    <p id="jumlahorangreservasi">-</p>
+                    <p>Tanggal Reservasi:</p>
+                    <p id="tanggalreservasi"></p>
+                    <p>Waktu Reservasi:</p>
+                    <p id="waktureservasi"></p>
+                </div>
+                <script type="text/javascript">
+                    var openreservasibt = document.getElementById("reservasibutton");
+                    var openhasilreservasibt = document.getElementById("hasilreservasibutton");
+
+                    var reservasisection = document.querySelector(".reservasi .reservasi2");
+                    var hasilreservasisection = document.querySelector(".reservasi .hasilreservasi");
+
+                    var stylereservasisection = getComputedStyle(reservasisection);
+                    var stylehasilreservasisection = getComputedStyle(hasilreservasisection);
+
+                    var reservasisectionline = document.querySelector(".reservasi nav ul li:first-child");
+                    var hasilreservasisectionline = document.querySelector(".reservasi nav ul li:nth-child(2)");
+
+                    openreservasibt.addEventListener("click", openreservasifunction);
+                    openhasilreservasibt.addEventListener("click", openhasilreservasifunction);
+
+                    function openreservasifunction(){
+                        if(stylehasilreservasisection.display =="block"){
+                            hasilreservasisection.style.display = "none";
+                            reservasisection.style.display = "block";
+                        }
+                    }
+                    function openhasilreservasifunction(){
+                        if(stylereservasisection.display =="block"){
+                            hasilreservasisection.style.display ="block";
+                            reservasisection.style.display="none";
+                        }
+                    }
+
+                    var inputfirstname = document.getElementById("firstname");
+                    var inputlastname = document.getElementById("lastname");
+                    var inputemail = document.getElementById("email");
+                    var inputphonenumber = document.getElementById("phonenumber");
+                    var inputjumlahorang = document.getElementById("jumlahorang");
+                    var inputtanggal = document.getElementById("tanggal");
+                    var inputwaktu = document.getElementById("waktu");
+
+                    var bismillahbutton = document.getElementById("submitbutton");
+                    bismillahbutton.addEventListener("click", submitbuttonfunction);
+
+                    var hasilnama = document.getElementById("namareservasi");
+                    var hasilemail = document.getElementById("emailreservasi");
+                    var hasilnomor = document.getElementById("phonereservasi");
+                    var hasiljumlahorang = document.getElementById("jumlahorangreservasi");
+                    var hasiltanggalreservasi = document.getElementById("tanggalreservasi");
+                    var hasilwaktu = document.getElementById("waktureservasi");
+
+                    function submitbuttonfunction(){
+                        if(inputfirstname.value == ""){
+                            return alert("Kok masih kosong namanya?gapunya")
+                        }
+                        if(inputlastname.value == ""){
+                            return alert("kok masih kosong namanya? gapunya")
+                        }
+                        if(email.validity.valid == false){
+                            return alert("salah emailnya brooo")
+                        }
+                        if(inputphonenumber.value == ""){
+                            return alert("gada nomornya ini")
+                        }
+                        if(inputjumlahorang.value == ""){
+                            return alert("kok ini gada orangnya? setan")
+                        }
+                        if(inputtanggal.value == ""){
+                            return alert("gada tanggalnya ini")
+                        }
+                        if(inputwaktu.value == ""){
+                            return alert("Mau dateng jam berapa kak?")
+                        }
+                        if(confirm("coba cek lagi semua")){
+                            hasilnama.innerText = inputfirstname.value + "" + inputlastname.value;
+                            hasilemail.innerText = inputemail.value;
+                            hasilnomor.innerText = inputphonenumber.value;
+                            hasiljumlahorang.innerText = inputjumlahorang.value;
+                            hasiltanggalreservasi.innerText = inputtanggal.value;
+                            hasilwaktu.innerText = inputwaktu.value;
+                            return alert("oke klo gitu gass")
+                        }  
+                    }
+                </script>
+            </div>
+        </main>
+    </body>
+</html>
