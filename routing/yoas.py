@@ -3,5 +3,5 @@ from flask import Blueprint, render_template
 app = Blueprint('yoas', __name__)
 
 @app.route('/yoas')
-def halamanUtama():
+def rebahantothemax():
     return render_template("yoasuntukpatrick.html")
