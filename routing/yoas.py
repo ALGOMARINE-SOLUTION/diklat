@@ -4,4 +4,4 @@ app = Blueprint('yoas', __name__)
 
 @app.route('/yoas')
 def rebahantothemax():
-    return render_template("yoasuntukpatrick.html")
+    return render_template("patrick2.html")
