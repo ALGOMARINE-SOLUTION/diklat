@@ -1,101 +1,25 @@
-#undip{
-    width: 50px;
-    height: 60px;
-}
-
-#ose{
-    width: 55px;
-    height: 55px;
-}
-
-#algo{
-    width: 212px;
-    height: 40px;
-}
-
 body {
-    background-color: rgb(213, 215, 218);
+    background-image: url(../img/nasa-Q1p7bh3SHj8-unsplash.jpg);
+    background-size: cover;
+    position: fixed;
 }
 
-body p{
-    font-size: 6mm;
-    font-style: italic;
-}
-
-.txt1{
-    background-color: rgb(81, 135, 182);
-    width: 6.5cm;
-    height: 5cm;
-    margin-left: 3cm;
-    margin-right: 1.5cm;
-    border-radius: 1cm;
-    position: center;
-    outline: rgb(81, 135, 182);
+body form {
+    background: rgb(228, 219, 100);
+    width: 250%;
+    height: 10cm;
+    max-width: 400px;
+    position: absolute;
+    margin-right: 15cm;
+    margin-left: 12cm;
     text-align: center;
+    box-sizing: border-box;
+    border-radius: 20px;
     font-size: 4.5mm;
-    float: left;
-    align-items: center;
 }
 
-.txt2{
-    background-color: rgb(81, 135, 182);
-    width: 6.5cm;
-    height: 5cm;
-    margin-left: 3cm;
-    margin-right: 2cm;
-    border-radius: 1cm;
-    position: center;
-    outline: rgb(81, 135, 182);
-    text-align: center;
-    font-size: 4.5mm;
-    float: left;
-}
-
-.txt3{
-    background-color: rgb(81, 135, 182);
-    width: 6.5cm;
-    height: 5cm;
-    margin-left: 2.5cm;
-    border-radius: 1cm;
-    position: center;
-    outline: rgb(81, 135, 182);
-    text-align: center;
-    font-size: 4.5mm;
-    float: left;
-}
-
-#diagram{
-    border: none;
-    height: 0.6cm;
-    margin-left: 1cm;
-}
-
-#sst1{
-    border: none;
-    height: 0.6cm;
-    margin-left: 1cm;
-}
-
-#sst2{
-    border: none;
-    height: 0.6cm;
-    margin-left: 1cm;
-}
-
-#pasut{
-    border: none;
-    height: 0.6cm;
-    margin-left: 1cm;
-}
-
-.button{
-    font-size: 5mm;
-    margin-top: 2cm;
-    margin-left: 15.1cm;
-    margin-right: 5cm;
-    background-color: rgb(81, 135, 182);
-    width: 4cm;
-    border-radius: 1cm;
-    position: center;
-    outline: rgb(81, 135, 182);
+body h1 {
+    color: rgb(255, 255, 255);
+    margin-left: 14.5cm;
+    margin-right: 10cm;
 }
