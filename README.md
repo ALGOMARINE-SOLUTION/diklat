@@ -13,4 +13,4 @@ Peraturan untuk repositori ini:
 Note:
 Update/Pull request dapat melalui branch Admin
 
-Segala pertanyaan dapat ditanyakan kepada admin. Semangat dan sukses selalu untuk projek kita bersama !!
+Segala pertanyaan dapat ditanyakan kepada admin. Semangat dan sukses selalu untuk projek kita bersama !!!
