@@ -1,0 +1,340 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Merriweather&family=Spartan&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body{
+  background-color: #88afd6;
+}
+
+.bagianmenu {
+  text-align: center;
+  width: 1300px;
+  height: 2420px;
+  background-image: url(../img/background\ cat\ biru.jpg);
+  justify-content: center;
+  background-position: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 30%;
+  margin-right: 30%;
+  box-shadow: 0 0 50px rgba(15, 99, 133, 0.5);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.judul h1 {
+  background-image: url(../img/background\ cat\ biru.jpg);
+  font-size: 100px;
+  color: #efb509b7;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: rgb(90, 85, 85);
+  text-align: center;
+  font-family: "Merriweather", serif;
+  text-shadow: #88afd6 5pt 5pt;
+  font-size: 125pt;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fotopembuka {
+  background-image: url(../img/Ice\ Cream\ Biru.jpg);
+  width: 1300px;
+  height: 200pt;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.layer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 25pt;
+}
+
+.layer .makanan {
+  background-color: #6ba7db98;
+  width: 300px;
+  padding: 20px;
+  border-radius: 5%;
+  box-shadow: #ebb40fb7 5pt 5pt;
+  margin: 25px;
+  overflow: hidden;
+  position: relative;
+}
+
+.layer .makanan:hover {
+  transform: translateY(-30px);
+  transition: 0.5s;
+}
+
+.layer .makanan p {
+  font-size: 20pt;
+}
+
+.layer .makanan .nasigoreng {
+  width: 250px;
+  height: 300px;
+  margin-left: 23pt;
+  background-size: 100%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  opacity: 80%;
+  background-position: center;
+  border-radius: 50px;
+}
+
+.layer .makanan .nilabakarmadu {
+  background-image: url(../img/samyang_🪐.jpg);
+  width: 250px;
+  height: 300px;
+  margin-left: 23pt;
+  background-size: 100%;
+  border-radius: 50px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.layer .makanan .osenguler {
+  background-image: url(../img/The\ Top\ Five\ Must\ Try\ Foods\ In\ Paris.jpg);
+  width: 250px;
+  height: 300px;
+  margin-left: 23pt;
+  background-size: 120%;
+  border-radius: 50px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.layer .makanan .martabaktelor {
+  background-image: url(../img/Perjodohan\ •\ pjm\ [End].jpg);
+  width: 250px;
+  height: 300px;
+  margin-left: 26pt;
+  background-size: 100%;
+  border-radius: 50px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  background-position: center;
+}
+
+.layer .makanan .batagorsomay {
+  background-image: url(../img/Sillage\ \(Doctor\ Soldier\ Romance\).jpg);
+  width: 250px;
+  height: 300px;
+  margin-left: 26pt;
+  background-size: 120%;
+  border-radius: 50px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.layer .makanan .oporayam {
+  background-image: url(../img/nasigoreng.jpg);
+  width: 250px;
+  height: 300px;
+  margin-left: 26pt;
+  background-size: 100%;
+  border-radius: 50px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  background-position: center;
+}
+
+.layer .makanan .pizza {
+  background-image: url(../img/Image\ about\ yummy\ in\ show\ aes_\ mission\ hill\ by\ daddystiltskin.jpg);
+  width: 250px;
+  height: 300px;
+  margin-left: 26pt;
+  background-size: 100%;
+  border-radius: 50px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  background-position: center;
+}
+
+.layer .makanan .indomie {
+  background-image: url(../img/Tempat\ No_\ 1\ untuk\ menyimpan\ resep\ masakan\ kamu.jpg);
+  width: 250px;
+  height: 300px;
+  margin-left: 26pt;
+  background-size: 100%;
+  border-radius: 50px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  background-position: center;
+}
+
+.layer .makanan .sate {
+  background-image: url(../img/sate❣️.jpg);
+  width: 250px;
+  height: 300px;
+  margin-left: 26pt;
+  background-size: 100%;
+  border-radius: 50px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  background-position: center;
+}
+
+.bagianreservasi{
+  text-align: center;
+  width: 1300px;
+  min-height: 1900px; 
+  background-image: url(../img/background\ cat\ biru.jpg);
+  justify-content: center;
+  background-position: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 30%;
+  margin-right: 30%;
+  box-shadow: 0 0 50px rgba(15, 99, 133, 0.5);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bagianreservasi nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+.bagianreservasi nav ul li{
+  width: 40%;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 60px;
+  border: 5px solid #ebb40fb7;
+  border-radius: 30px;
+  box-shadow: #88afd6 5pt 5pt;
+  background-color: #ffffff;
+  margin-left: 40px;
+}
+
+.bagianreservasi nav ul li:hover{
+  transform: translateY(-5px);
+  transition: 0.2s;
+}
+
+.bagianreservasi nav ul li button{
+  size: 100%;
+  background-color: transparent;
+  font-size: 50px;
+  border: none;
+  color: #ebb40fb7;
+  text-shadow:  #88afd6 2pt 2pt;
+}
+
+.bagianreservasi nav ul li button:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.bagianreservasi .reservasi{
+  display: block;
+}
+
+.bagianreservasi .reservasi h2{
+  margin-top: 50px;
+  font-size: 50pt;
+  font-family: "Merriweather", serif;
+  color: #ffffff;;
+  text-shadow: #88afd6 3pt 3pt;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.bagianreservasi .reservasi p{
+  margin-top: 50px;
+  font-size: 50pt;
+  font-family: "Merriweather", serif;
+  color:#ffffff;
+  text-shadow: #88afd6 3pt 3pt;
+}
+
+.bagianreservasi .reservasi input{
+  font-size: 25pt;
+  margin-top: 40px;
+}
+
+.bagianreservasi .reservasi button{
+  font-size: 50px;
+  margin-top: 50px;
+}
+
+.bagianreservasi .hasilreservasi{
+  display: none;
+}
+
+.bagianreservasi .hasilreservasi h2{
+  margin-top: 50px;
+  font-size: 50pt;
+  font-family: "Merriweather", serif;
+  color: #ffffff;;
+  text-shadow: #88afd6 3pt 3pt;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.bagianreservasi .hasilreservasi p{
+  margin-top: 50px;
+  font-size: 45pt;
+  font-family: "Merriweather", serif;
+  color: #ffffff;
+  text-shadow: #88afd6 3pt 3pt;
+}
+
+.library{
+  text-align: center;
+  min-width: 1300px;
+  min-height: 900px; 
+  background-image: url(../img/background\ cat\ biru.jpg);
+  justify-content: center;
+  background-position: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 30%;
+  margin-right: 30%;
+  box-shadow: 0 0 50px rgba(15, 99, 133, 0.5);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.library .isi {
+  justify-content: center;
+  text-align: center;
+}
+
+.library .isi h2{
+  font-size: 50pt;
+  font-family: "Merriweather", serif;
+  color: #ffffff;;
+  text-shadow: #88afd6 3pt 3pt;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.library .isi p{
+  margin-top: 30px;
+  font-size: 50pt;
+  font-family: "Merriweather", serif;
+  color:#ffffff;
+  text-shadow: #88afd6 3pt 3pt;
+}
+
+.library .isi .kesanlibrary{
+  margin-left: 30cm;
+}
+
+.library .isi input{
+  font-size: 25pt;
+  margin-top: 40px;
+}

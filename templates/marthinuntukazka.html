@@ -1,0 +1,127 @@
+<html lang ="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale = 1.0">
+    <title> Biodata </title>
+    <link rel="stylesheet" href="../static/css/marthinuntukazka.css">
+</head>
+<body>
+    <main>
+        <h1><u>PERKENALKAN!</u></h1>
+        <div class="foto"></div>
+        <p><b>Nama : </b>Marthin Wahyu Bethara Wahyono Undap</p>
+        <p><b>NIM :</b> 26050119130060</p>
+        <p><b>Prodi :</b> Oseanografi</p>
+        <p><b>Angkatan :</b> 2019</p>
+        <p><b>Asal :</b> Bekasi, Jawa Barat</p>
+        <p><b>IG :</b> <a href="https://www.instagram.com/marthinwhy/">marthinwhy</a></p>
+        <p><b>Terima Kasih Atas Perhatiannya:)</b></p>
+    </main>
+    <main>
+        <nav>
+            <ul>
+                <li><button type="button" id="feedbackbutton">Masukin Feedbacknya</button>
+                <li><button type="button" id="feedbackresultbutton">Your Inquiry</button>
+            </ul>
+        </nav>
+        <div class="feedback">
+            <h2>Oprec Kissing Booth</h2>
+            <p>Nama</p>
+            <input type="text" id="firstname" name="firstname" placeholder="First Name">
+            <input type="text" id="lastname" name="lastname" placeholder="Last Name">
+            <p>Email ID</p>
+            <input type="email" id="email" name="email" placeholder="Email">
+            <p>Phone Number</p>
+            <input type="text" id="phonenumber" name="phonenumber" placeholder="Nomor Hapenya">
+            <p>Deskripsi diri</p>
+            <input type="text" id="deskripsi" name="deskripsi" placeholder="Motivasi Anda">
+            <br><br>
+            <button type="submit" id="submitbutton"> SUBMIT </button>
+        </div>
+        <div class="feedbackresult">
+            <h2>Submitted form</h2>
+            <p>Your Name:</p>
+            <p id="sendername">-</p>
+            <p>Your Email:</p>
+            <p id="senderemail">-</p>
+            <p>Your Phone Number</p>
+            <p id="senderphone">-</p>
+            <p>Motivasi Diri</p>
+            <p id="deskripsisender"></p>
+        </div>
+
+        <script type="text/javascript">
+            var openfeedbackbtn = document.getElementById("feedbackbutton");
+            var openresultbtn = document.getElementById("feedbackresultbutton");
+    
+            var feedbacksection = document.querySelector(".feedback");
+            var resultsection = document.querySelector(".feedbackresult");
+    
+            var stylefeedbacksection = getComputedStyle(feedbacksection);
+            var styleresultsection = getComputedStyle(resultsection);
+    
+            var feedbacksectionline = document.querySelector("main nav ul lu:first-child")
+            var resultsectionline = document.querySelector("main nav ul lu:nth-child(2)")
+
+            openfeedbackbtn.addEventListener("click", openfeedbackfunction);
+            openresultbtn.addEventListener("click", openresultfunction);
+    
+            function openfeedbackfunction(){
+                if(styleresultsection.display =="block"){
+                    resultsection.style.display = "none";
+                    feedbacksection.style.display = "block";
+                    feedbacksectionline.style.borderBottom = "0px solid black;";
+                    resultsectionline.style.borderBottom = "1px solid black;";
+                }
+            }
+            function openresultfunction(){
+                if(stylefeedbacksection.display =="block"){
+                    resultsection.style.display = "block";
+                    feedbacksection.style.display = "none";
+                    feedbacksectionline.style.borderBottom = "1px solid black;";
+                    resultsectionline.style.borderBottom = "0px solid black;";
+                }
+            }
+
+            var inputfirstname = document.getElementById("firstname");            
+            var inputlastname = document.getElementById("lastname");
+            var inputemail = document.getElementById("email");
+            var inputphonenumber = document.getElementById("phonenumber");
+            var inputdeskripsi = document.getElementById("deskripsi");
+
+            var bismillahbutton = document.getElementById("submitbutton");
+            bismillahbutton.addEventListener("click", buttonfunction);
+
+            var theemail = document.getElementById("senderemail");
+            var thename = document.getElementById("sendername");
+            var thenumber = document.getElementById("senderphone");
+            var thedeskripsi = document.getElementById("deskripsisender");
+
+            function buttonfunction(){
+                if(inputfirstname.value == ""){
+                    return alert("namanya masih kosong bosh")
+                }
+                if(inputlastname.value == ""){
+                    return alert("namanya masih kosong bosh")
+                }
+                if(inputphonenumber.value == ""){
+                    return alert("Nmor hape masih kosong bosh")
+                }
+                if(inputdeskripsi.value == ""){
+                    return alert("deskripsinya masih kosong bosh")
+                }
+                if(email.validity.valid == false){
+                    return alert ("emailnya salah bosh")
+                }
+                if(confirm("udah fix ya sayang?")){
+                    thename.innerText = inputfirstname.value + "" + inputlastname.value;
+                    theemail.innerText = inputemail.value;
+                    thenumber.innerText = inputphonenumber.value;
+                    thedeskripsi.innerText = inputdeskripsi.value;
+                    return alert ("yok bisa yok")                    
+                }
+            }
+        </script>
+    </main>
+</body> 
+
