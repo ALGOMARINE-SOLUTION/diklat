@@ -1,0 +1,305 @@
+body {
+    background-color: rgb(245, 212, 234);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    background-image: url(../images/Download\ premium\ vector\ of\ Blooming\ round\ floral\ frame\ vector\ 1201212.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.judulnya {
+    background-image: url(../images/Vintage\ Cloud\ Navy\ Wallpaper\ \(Navy\)\,\ Blue.jpg);
+    background-repeat: inherit;
+    background-position: center;
+    background-size: 1500px;
+    text-align: center;
+    font-size: 55px;
+    font-family: cursive;
+    color: rgb(207, 247, 114);
+    padding-top: 5px;
+    text-shadow: rgb(100, 110, 9) 10px 5px;
+}
+
+.beer {
+    justify-content: center;
+    display: flex;
+}
+
+.beer .menubeer {
+    padding-left: 10px;
+    background-color: rgba(129, 209, 230, 0.308);
+    width: 900px;   
+}
+
+.beer .menubeer:hover{
+    transform: translateX(10px);
+    transition: 0,5s;
+}
+.beer h1 {
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(23, 32, 82);
+}
+
+.beer h2 {
+    font-family: cursive;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(23, 32, 82);
+}
+
+.beer p {
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(23, 32, 82);
+}
+
+.beer .gambarbeer {
+    background-image: url(../images/New\ York\,\ the\ World\'s\ Greatest\ Wine\ City.jpg);
+    width: 500px;
+    height: 580px;
+    padding-left: 100px;
+    justify-content: center;
+    float: left;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.cocktails {
+    display: flex;
+    justify-content: center;
+}
+
+.gambarcocktails {
+    background-image: url(../images/Cocktails\ _\ Making\ Pictures.jpg);
+    width: 350px;
+    height: px;
+    padding-left: 100px;
+    justify-content: center;
+    float: right;
+    background-repeat: no-repeat;
+    background-size: 148%;
+    margin-top: 25px;
+    background-position: center;
+}
+
+.gambarcocktails2 {
+    background-image: url(../images/What\ Your\ Favorite\ Drink\ Says\ About\ You.png);
+    width: 330px;
+    height: 950px;
+    float: right;
+    margin-right: 30px;
+    padding-left: 100px;
+    margin-top: 25px;
+    background-size: 146%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cocktails .menucocktails {
+    background-color: rgba(129, 209, 230, 0.308);
+    justify-content: center;
+    height: 960px;
+    width: 670px;
+    margin-top: 25px;
+}
+
+.cocktails .menucocktails:hover{
+    transform: translateX(-10px);
+    transition: 0,5s;
+}
+
+.cocktails h1 {
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(23, 32, 82);
+}
+
+.cocktails h2 {
+    font-family: cursive;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(23, 32, 82);
+}
+
+.cocktails p {
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(23, 32, 82);
+    padding-right: 10px;
+}
+
+.shots {
+    justify-content: center;
+    display: flex;
+}
+
+.gambarshots {
+    background-image: url(../images/Maria\ Diamantes.jpg);
+    width: 500px;
+    height: 800px;
+    padding-left: 100px;
+    justify-content: center;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: center;
+}
+
+.shots .menushots {
+    background-color: rgba(129, 209, 230, 0.308);
+    width: 900px;
+    padding-left: 10px;
+    height: 800px;
+}
+
+.shots .menushots:hover {
+    transform: translateX(10px);
+    transition: 0,5s;
+}
+
+.shots h1 {
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(23, 32, 82);
+}
+
+.shots h2 {
+    font-family: cursive;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(23, 32, 82);
+}
+
+.shots p {
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(23, 32, 82);
+}
+
+.bonusminuman {
+    justify-content: center;
+    display: flex;
+    margin-top: 25px;
+}
+
+.bonusminuman .kasitaudah {
+    padding-left: 10px;
+    background-color: rgba(153, 163, 14, 0.774);
+    width: fit-content;
+}
+
+.bonusminuman .kasitaudah:hover {
+    transform: translateY(-10px);
+    transition: 0,5;
+}
+
+.bonusminuman h1 {
+    font-family: monospace;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(151, 118, 9);
+    text-shadow: rgb(255, 244, 85) 5px 5px;
+}
+
+.bonusminuman h2 {
+    font-family: cursive;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(110, 84, 27);
+}
+
+.bonusminuman p {
+    font-family: cursive;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(75, 55, 13);
+}
+
+main nav ul{
+    list-style: none;
+}
+main nav ul li{
+    float: left;
+    width: 50%;
+    padding-left: 10px;
+    padding-top:  10px;
+    padding-bottom: 10px;
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+}
+.reservasi nav ul li:first-child{
+    margin-left: -40px;
+    border-bottom: 1px solid black;
+    margin-right: 35px;
+    text-align: center;
+}
+.reservasi nav ul li:nth-child(2){
+    margin-left: -40px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    text-align: center;
+    
+}
+.reservasi nav ul li button{
+    background-color: transparent;
+    border: none;
+}
+.reservasi nav ul li button:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.reservasi2{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(42, 39, 54, 0.534);
+    background-size: 200px;
+    font-family: cursive;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(241, 240, 135);
+}
+.reservasi h2{
+    padding-top: 50px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: cursive;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(249, 255, 162);
+}
+.hasilreservasi{
+    display: none;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(20, 11, 51, 0.534);
+    background-size: 200px;
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(249, 255, 162);
+}
+.hasilreservasi h2{
+    padding-top: 50px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: cursive;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(249, 255, 162);
+}
